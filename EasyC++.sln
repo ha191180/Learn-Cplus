@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.28917.181
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sample2-1", "Sample1\Sample1.vcxproj", "{E54C864A-78E0-43CE-B7B7-91AC72B7959C}"
 EndProject
@@ -15,9 +15,13 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Practice3", "Practice3\Prac
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Practice4", "Practice4\Practice4.vcxproj", "{64C52156-82EA-4535-AF02-F6D95864B364}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Practice5(some probrems remain)", "Practice5\Practice5.vcxproj", "{79429970-2A5F-4286-8319-2AC2BA7BB490}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Practice5(ER)", "Practice5\Practice5.vcxproj", "{79429970-2A5F-4286-8319-2AC2BA7BB490}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Practice6", "Practice6\Practice6.vcxproj", "{31CB4547-08B6-43D1-BB32-28A3B9DAFEF1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Practice7", "Practice7\Practice7.vcxproj", "{F10FAB83-F35D-4270-A3C3-67FC85564BD3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Practice1", "Practice1\Practice1.vcxproj", "{079FF237-F32D-42C6-9A63-7D1D348219D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -91,6 +95,22 @@ Global
 		{31CB4547-08B6-43D1-BB32-28A3B9DAFEF1}.Release|x64.Build.0 = Release|x64
 		{31CB4547-08B6-43D1-BB32-28A3B9DAFEF1}.Release|x86.ActiveCfg = Release|Win32
 		{31CB4547-08B6-43D1-BB32-28A3B9DAFEF1}.Release|x86.Build.0 = Release|Win32
+		{F10FAB83-F35D-4270-A3C3-67FC85564BD3}.Debug|x64.ActiveCfg = Debug|x64
+		{F10FAB83-F35D-4270-A3C3-67FC85564BD3}.Debug|x64.Build.0 = Debug|x64
+		{F10FAB83-F35D-4270-A3C3-67FC85564BD3}.Debug|x86.ActiveCfg = Debug|Win32
+		{F10FAB83-F35D-4270-A3C3-67FC85564BD3}.Debug|x86.Build.0 = Debug|Win32
+		{F10FAB83-F35D-4270-A3C3-67FC85564BD3}.Release|x64.ActiveCfg = Release|x64
+		{F10FAB83-F35D-4270-A3C3-67FC85564BD3}.Release|x64.Build.0 = Release|x64
+		{F10FAB83-F35D-4270-A3C3-67FC85564BD3}.Release|x86.ActiveCfg = Release|Win32
+		{F10FAB83-F35D-4270-A3C3-67FC85564BD3}.Release|x86.Build.0 = Release|Win32
+		{079FF237-F32D-42C6-9A63-7D1D348219D1}.Debug|x64.ActiveCfg = Debug|x64
+		{079FF237-F32D-42C6-9A63-7D1D348219D1}.Debug|x64.Build.0 = Debug|x64
+		{079FF237-F32D-42C6-9A63-7D1D348219D1}.Debug|x86.ActiveCfg = Debug|Win32
+		{079FF237-F32D-42C6-9A63-7D1D348219D1}.Debug|x86.Build.0 = Debug|Win32
+		{079FF237-F32D-42C6-9A63-7D1D348219D1}.Release|x64.ActiveCfg = Release|x64
+		{079FF237-F32D-42C6-9A63-7D1D348219D1}.Release|x64.Build.0 = Release|x64
+		{079FF237-F32D-42C6-9A63-7D1D348219D1}.Release|x86.ActiveCfg = Release|Win32
+		{079FF237-F32D-42C6-9A63-7D1D348219D1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
