@@ -4,12 +4,12 @@ using namespace std;
 int max(int scr[5]);
 /*
 int main_err() {
-	int num, score[100][5];//score[l”][“_”]
-	cout << "¶“k‚Ìl”‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢B" << endl;
+	int num, score[100][5];//score[äººæ•°][ç‚¹æ•°]
+	cout << "ç”Ÿå¾’ã®äººæ•°ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ã€‚" << endl;
 	cin >> num;
-	cout << "5‹³‰È‚Ì“_”‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢" << endl;
+	cout << "5æ•™ç§‘ã®ç‚¹æ•°ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„" << endl;
 	for (int i = 0; i < num; i++) {
-		cout << i + 1 << "l–Ú" << endl;
+		cout << i + 1 << "äººç›®" << endl;
 		for (int j = 0; j < 5; j++) {
 			cin >> score[i][j];
 		}
@@ -31,18 +31,18 @@ int max(int scr[]) {
 
 
 int main() {
-	cout << "5‹³‰È‚Ì“Á“T‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢" << endl;
+	cout << "5æ•™ç§‘ã®å¾—ç‚¹ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„" << endl;
 	int x[5];
-	for (int i = 0;i < 5 ;i++)
+	for (int & i : x)
 	{
-		cin >> x[i];
+		cin >> i;
 	}
 	int result;
 	result = max(x);
-	cout << "Å‚“¾“_‚Í" << result << endl;
+	cout << "æœ€é«˜å¾—ç‚¹ã¯" << result << endl;
 	while (true)
 	{
-		//ƒ‹[ƒv
+		//ãƒ«ãƒ¼ãƒ—
 	}
 	return 0;
 }
