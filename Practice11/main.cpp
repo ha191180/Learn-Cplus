@@ -4,9 +4,6 @@
 #include <iostream>
 using namespace std;
 
-void aging(Person* p){
-
-}
 
 struct Person{
     int     age;
@@ -14,6 +11,9 @@ struct Person{
     double  height;
 };
 
+void aging(Person* p){
+    p->age += 1;
+}
 
 int main(){
     Person psn1;
@@ -30,7 +30,8 @@ int main(){
     cin >> psn1.weight;
     cout << "身長を入力してください。" << endl;
     cin >> psn1.height;
-    cout << psn1.age << endl;
-
+    cout << "一人目の年齢:" << psn1.age << endl;
+    aging(&psn1);
+    cout << "一年後の一人目の年齢:" << psn1.age << endl;
     //for文を用いて構造体を配列化して[1][2]で管理することもできる。
 }
