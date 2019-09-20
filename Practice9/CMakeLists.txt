@@ -1,1 +1,0 @@
-add_executable(Main Q3.cpp)
